@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature detector</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div id="container">
+    <img src="https://i.pinimg.com/736x/c5/66/41/c566417b0787b9adf0d7bfb56d691b51.jpg">
+    <label id="enter">Enter your Temperature:</label>
+    <input id="number">
+    <div><input type="radio" id="tocelcius" name="temp">
+        <label>Degree Celcius</label>
+    </div>
+        <div><input type="radio" id="tofahrenheit" name="temp">
+             <label>Fahrenheit</label>
+            </div>
+    <button type="button" onclick="submit()">submit</button>
+    <p id="answer">Select an option</p>
+   </div>
+   <script src="index.js"></script>
+   </body>
+</html>

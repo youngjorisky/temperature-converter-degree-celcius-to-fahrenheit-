@@ -1,0 +1,49 @@
+body{
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(245, 237, 242);
+}
+#container{
+    background-image: url('https://i.pinimg.com/originals/91/55/89/9155897bb9d4720123fdc993e977ad7a.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 30%;
+    background-color: rgb(246, 232, 241);
+    font-size: 1.5em;
+    gap: 30px;
+    font-family: "Playwrite US Modern", sans-serif;
+    color: rgb(120, 14, 83);
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px;
+}
+#number{
+    width: 20%;
+    height: 10%;
+    border-radius: 10px;
+    font-size: 1.2em;
+    box-shadow: 12px 12px 2px 1px rgba(131, 40, 84, 0.919);
+}
+button{
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(194, 143, 176);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: 50%;
+    height: 10%;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+#answer{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
